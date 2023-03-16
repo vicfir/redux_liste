@@ -10,7 +10,7 @@ export const listeSlice = createSlice({
         },
         deleteFromList: (state, action)=>{
             const deleted = action.payload;
-            return state.filter(item => item !== deleted);
+            return state.filter(item => item.toLowerCase() !== deleted.toLowerCase());
         },
     }
 })
