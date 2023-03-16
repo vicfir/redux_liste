@@ -7,7 +7,7 @@ export const Liste = () => {
     const tache = useRef(null);
 
     const dispatch = useDispatch();
-    
+
     const addClick = () => {
         dispatch(addToList(tache.current.value))
     }

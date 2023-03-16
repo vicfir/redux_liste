@@ -16,4 +16,4 @@ export const listeSlice = createSlice({
 })
 
 export const { addToList, deleteFromList} = listeSlice.actions;
-export default listeSlice.reducer;
+// export default listeSlice;
